@@ -22,7 +22,7 @@ sail artisan db:seed
 
 ## :blue_book: Documentation
 
-Documentation lives at readthedocs.org
+Documentation in progress
 
 ## :exclamation: Requirements
 
