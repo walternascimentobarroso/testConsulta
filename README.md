@@ -1,14 +1,56 @@
+<div align="center">
+
+# Title
+
+</div>
+
+## :scroll: Overview
+
+Project test
+
+## :dvd: Setup
+
+```
 ./vendor/bin/sail up
 
-php artisan make:migration create_cidades_table --create=cidades
+sail composer install
 
-php artisan make:migration create_paciente_table --create=pacientes
-php artisan make:migration create_medico_table --create=medicos
-php artisan make:migration create_medico_paciente_table --create=medico_paciente
+sail artisan migrate
 
-php artisan make:factory CidadesFactory
-php artisan make:factory PacienteFactory
-php artisan make:factory MedicoFactory
-php artisan make:factory MedicoPacienteFactory
+sail artisan db:seed
+```
 
-php artisan migrate
+## :blue_book: Documentation
+
+Documentation lives at readthedocs.org
+
+## :exclamation: Requirements
+
+-   [PHP](https://php.net/)
+
+## :floppy_disk: Installation and usage
+
+```
+git clone https://github.com/walternascimentobarroso/testConsulta.git
+```
+
+### :rotating_light: Tests
+
+```
+sail artisan test
+```
+
+### :heavy_check_mark: Dependencies and libs
+
+-   [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+-   [React PDF](https://react-pdf.org/)
+
+## :memo: License
+
+The [MIT License]() (MIT)
+
+## :smiley_cat: Author
+
+-   [@walternascimentobarroso](https://walternascimentobarroso.github.io/)
+
+Made with &nbsp;❤️&nbsp;
