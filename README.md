@@ -22,13 +22,13 @@ sail artisan db:seed
 
 ## :blue_book: Documentation
 
-Documentation in progress
+[Documentation](https://documenter.getpostman.com/view/4893696/2s9XxztC6Z)
 
 ## :exclamation: Requirements
 
 -   [PHP](https://php.net/)
 
-## :floppy_disk: Installation and usage
+## :floppy_disk: Installation
 
 ```
 git clone https://github.com/walternascimentobarroso/testConsulta.git
