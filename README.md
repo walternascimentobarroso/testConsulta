@@ -40,11 +40,6 @@ git clone https://github.com/walternascimentobarroso/testConsulta.git
 sail artisan test
 ```
 
-### :heavy_check_mark: Dependencies and libs
-
--   [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
--   [React PDF](https://react-pdf.org/)
-
 ## :memo: License
 
 The [MIT License]() (MIT)
